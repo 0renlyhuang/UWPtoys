@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="StoreBooking.CompletePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StoreBooking"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Image Grid.Row="0" Style="{StaticResource WhiteIconStyle}" Source="Assets/color-logo.png"  />
+        
+        <Image Grid.Row="1" Source="Assets/ticket.jpg" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Stretch="Uniform" />
+        <StackPanel Grid.Row="1" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Order" FontSize="36" HorizontalAlignment="Center"/>
+            <TextBlock Text="96" FontSize="64" HorizontalAlignment="Center" />
+        </StackPanel>
+    </Grid>
+</Page>
+
