@@ -1,0 +1,1 @@
+D:\Code\UWP\learningProj\NoughtsCrosses\NoughtsCrosses.csproj;x86
